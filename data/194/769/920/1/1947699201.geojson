@@ -2,10 +2,12 @@
   "id": 1947699201,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-01",
+    "date:cessation_upper": "2025-01-01",
     "date:inception_lower": "2025-01-01",
     "date:inception_upper": "2025-01-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-01",
+    "edtf:cessation": "2025-01-01T20:02:00Z",
+    "edtf:inception": "2025-01-01T17:41:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-01-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531189,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N8870K",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "88725981",
+      "swim:gufi": "KD56723400"
+    },
     "wof:country": "US",
     "wof:created": 1735834758,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1947699201,
     "wof:involves": [
+      1528104575,
       102527513,
       102531189,
       1159285591,
       1947304263
     ],
-    "wof:lastmodified": 1735834758,
+    "wof:lastmodified": 1735836797,
     "wof:name": "WN1798 (DEN-SFO)",
     "wof:parent_id": 1947304263,
     "wof:placetype": "custom",
