@@ -2,10 +2,12 @@
   "id": 1947706283,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-02",
+    "date:cessation_upper": "2025-01-02",
     "date:inception_lower": "2025-01-02",
     "date:inception_upper": "2025-01-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-02",
+    "edtf:cessation": "2025-01-02T19:15:00Z",
+    "edtf:inception": "2025-01-02T18:24:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "DAL",
     "icao:base_airline": "CAL",
     "lbl:latitude": 37.614944,
     "lbl:longitude": -122.383123,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250102-A-CAL-9119",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N378NW",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "88796226",
+      "swim:gufi": "KL61861501"
+    },
     "wof:country": "US",
     "wof:created": 1735920948,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1947706283,
     "wof:involves": [
+      1947304667,
+      1159284153,
+      1159292085,
       102527513,
       102533795,
-      1159284261,
-      1947304667,
-      1159284153
+      1159284261
     ],
-    "wof:lastmodified": 1735920948,
+    "wof:lastmodified": 1735924143,
     "wof:name": "DL2272 (LAX-SFO)",
     "wof:parent_id": 1947304667,
     "wof:placetype": "custom",

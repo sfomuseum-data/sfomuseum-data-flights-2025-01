@@ -2,10 +2,12 @@
   "id": 1947708255,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-02",
+    "date:cessation_upper": "2025-01-02",
     "date:inception_lower": "2025-01-02",
     "date:inception_upper": "2025-01-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-02",
+    "edtf:cessation": "2025-01-02T23:06:00Z",
+    "edtf:inception": "2025-01-02T22:04:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-01-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.7213045,
     "geom:longitude": -119.4384925,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533591,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N76515",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "88812084",
+      "swim:gufi": "KL65752500"
+    },
     "wof:country": "US",
     "wof:created": 1735921872,
     "wof:geomhash": "a35a6e87f0ae0f1f716f88067ee31aa3",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1947708255,
     "wof:involves": [
-      102527513,
-      102533591,
       1159285413,
-      -1
+      1159289871,
+      102527513,
+      102533591
     ],
-    "wof:lastmodified": 1735921872,
+    "wof:lastmodified": 1735924114,
     "wof:name": "UA8144 (PSP-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1947711949,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-02",
+    "date:cessation_upper": "2025-01-02",
     "date:inception_lower": "2025-01-02",
     "date:inception_upper": "2025-01-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-02",
+    "edtf:cessation": "2025-01-02T18:07:00Z",
+    "edtf:inception": "2025-01-02T16:47:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.484166,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B737",
     "icao:airline": "UAL",
     "icao:base_airline": "AAR",
     "lbl:latitude": 37.621076,
     "lbl:longitude": -122.390239,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102532251,
     "sfomuseum:base_flight_id": "20250102-D-AAR-6320",
@@ -53,6 +57,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "88790059"
+    },
     "wof:country": "US",
     "wof:created": 1735923610,
     "wof:geomhash": "a0e250e9237d15725a2a6f51d6b7a6b6",
@@ -88,13 +95,14 @@
     ],
     "wof:id": 1947711949,
     "wof:involves": [
-      102532251,
       102527513,
       1159285413,
       1947304489,
-      1159283917
+      1159283917,
+      1159289869,
+      102532251
     ],
-    "wof:lastmodified": 1735923610,
+    "wof:lastmodified": 1735924115,
     "wof:name": "UA1335 (SFO-PDX)",
     "wof:parent_id": 1947304489,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1947710519,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-02",
+    "date:cessation_upper": "2025-01-02",
     "date:inception_lower": "2025-01-02",
     "date:inception_upper": "2025-01-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-02",
+    "edtf:cessation": "2025-01-02T18:01:00Z",
+    "edtf:inception": "2025-01-02T14:16:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -103.4008145,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "icao:base_airline": "AMX",
     "lbl:latitude": 37.615398,
     "lbl:longitude": -122.383426,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102526927,
     "sfomuseum:base_flight_id": "20250102-D-AMX-4203",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N713TW",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "88781270",
+      "swim:gufi": "KO47462502"
+    },
     "wof:country": "US",
     "wof:created": 1735922934,
     "wof:geomhash": "8306f5516cededf93440c49d2c7be198",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1947710519,
     "wof:involves": [
+      1159289939,
       102526927,
       102527513,
       1159284261,
       1947304671,
       1159283539
     ],
-    "wof:lastmodified": 1735922934,
+    "wof:lastmodified": 1735924100,
     "wof:name": "DL570 (SFO-ATL)",
     "wof:parent_id": 1947304671,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1947707791,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-02",
+    "date:cessation_upper": "2025-01-02",
     "date:inception_lower": "2025-01-02",
     "date:inception_upper": "2025-01-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-02",
+    "edtf:cessation": "2025-01-02T18:59:00Z",
+    "edtf:inception": "2025-01-02T14:55:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -106.3692875,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.618149,
     "lbl:longitude": -122.381669,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250102-A-ANZ-9700",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N431UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "88784084",
+      "swim:gufi": "KK40409500"
+    },
     "wof:country": "US",
     "wof:created": 1735921655,
     "wof:geomhash": "5aed0915f9f8845326df52b0d348a4b7",
@@ -92,9 +105,10 @@
       1746879059,
       1159285413,
       1947304613,
-      1159283697
+      1159283697,
+      1159292085
     ],
-    "wof:lastmodified": 1735921655,
+    "wof:lastmodified": 1735924107,
     "wof:name": "UA1859 (STL-SFO)",
     "wof:parent_id": 1947304613,
     "wof:placetype": "custom",
