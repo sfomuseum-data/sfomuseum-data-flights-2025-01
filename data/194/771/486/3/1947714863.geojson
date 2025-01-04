@@ -2,10 +2,12 @@
   "id": 1947714863,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-04",
+    "date:cessation_upper": "2025-01-04",
     "date:inception_lower": "2025-01-03",
     "date:inception_upper": "2025-01-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-03",
+    "edtf:cessation": "2025-01-04T02:22:00Z",
+    "edtf:inception": "2025-01-03T20:17:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B763",
     "icao:airline": "DAL",
     "icao:base_airline": "AMX",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289965,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250103-A-AMX-3415",
@@ -39,7 +43,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N171DN",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "88884340",
+      "swim:gufi": "KN68761600"
+    },
     "wof:country": "US",
     "wof:created": 1736007216,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -51,13 +64,13 @@
     ],
     "wof:id": 1947714863,
     "wof:involves": [
+      1159283539,
+      1159289965,
       102527513,
       102534365,
-      1159284261,
-      -1,
-      1159283539
+      1159284261
     ],
-    "wof:lastmodified": 1736007216,
+    "wof:lastmodified": 1736009799,
     "wof:name": "DL679 (JFK-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

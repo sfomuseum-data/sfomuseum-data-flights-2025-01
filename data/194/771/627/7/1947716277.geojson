@@ -2,10 +2,12 @@
   "id": 1947716277,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-03",
+    "date:cessation_upper": "2025-01-03",
     "date:inception_lower": "2025-01-03",
     "date:inception_upper": "2025-01-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-03",
+    "edtf:cessation": "2025-01-03T19:49:00Z",
+    "edtf:inception": "2025-01-03T14:03:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -101.2547305,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "AZU",
     "lbl:latitude": 37.620533,
     "lbl:longitude": -122.389374,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250103-A-AZU-7911",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N37319",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "88853136",
+      "swim:gufi": "KR36403600"
+    },
     "wof:country": "US",
     "wof:created": 1736007757,
     "wof:geomhash": "d17d7e3187ba5afa3de1a7310fca2526",
@@ -92,9 +105,10 @@
       102530841,
       1159285413,
       1947304457,
-      1779770723
+      1779770723,
+      1528104575
     ],
-    "wof:lastmodified": 1736007757,
+    "wof:lastmodified": 1736009804,
     "wof:name": "UA1117 (FLL-SFO)",
     "wof:parent_id": 1947304457,
     "wof:placetype": "custom",

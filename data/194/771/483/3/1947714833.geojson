@@ -2,10 +2,12 @@
   "id": 1947714833,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-01-03",
-    "date:inception_upper": "2025-01-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-03",
+    "date:cessation_lower": "2025-01-04",
+    "date:cessation_upper": "2025-01-04",
+    "date:inception_lower": "2025-01-04",
+    "date:inception_upper": "2025-01-04",
+    "edtf:cessation": "2025-01-04T06:54:00Z",
+    "edtf:inception": "2025-01-04T05:57:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "DAL",
     "icao:base_airline": "CAL",
     "lbl:latitude": 37.614645,
     "lbl:longitude": -122.382263,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250103-A-CAL-9868",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N363NB",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "88834080",
+      "swim:gufi": "KL16021701"
+    },
     "wof:country": "US",
     "wof:created": 1736007205,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1947714833,
     "wof:involves": [
+      1159289407,
       102527513,
       102533795,
       1159284261,
       1947304673,
       1159284153
     ],
-    "wof:lastmodified": 1736007205,
+    "wof:lastmodified": 1736009782,
     "wof:name": "DL2986 (LAX-SFO)",
     "wof:parent_id": 1947304673,
     "wof:placetype": "custom",
