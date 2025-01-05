@@ -2,10 +2,12 @@
   "id": 1947723505,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-04",
+    "date:cessation_upper": "2025-01-04",
     "date:inception_lower": "2025-01-04",
     "date:inception_upper": "2025-01-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-04",
+    "edtf:cessation": "2025-01-04T20:38:46Z",
+    "edtf:inception": "2025-01-04T15:42:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -103.4008145,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "icao:base_airline": "LAN",
     "lbl:latitude": 37.615398,
     "lbl:longitude": -122.383426,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250104-A-LAN-6488",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N840DN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "88945854",
+      "swim:gufi": "KT52501700"
+    },
     "wof:country": "US",
     "wof:created": 1736093718,
     "wof:geomhash": "ae92617dd2aca2afdb0c9096232ff0bb",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1947723505,
     "wof:involves": [
+      1159285641,
+      1377564285,
       102527513,
       102526927,
       1159284261,
-      1947304671,
-      1159285641
+      1947304671
     ],
-    "wof:lastmodified": 1736093718,
+    "wof:lastmodified": 1736096633,
     "wof:name": "DL531 (ATL-SFO)",
     "wof:parent_id": 1947304671,
     "wof:placetype": "custom",

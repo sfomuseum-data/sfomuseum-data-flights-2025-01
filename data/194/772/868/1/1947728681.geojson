@@ -2,10 +2,12 @@
   "id": 1947728681,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-04",
+    "date:cessation_upper": "2025-01-04",
     "date:inception_lower": "2025-01-04",
     "date:inception_upper": "2025-01-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-04",
+    "edtf:cessation": "2025-01-04T21:27:27Z",
+    "edtf:inception": "2025-01-04T04:36:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "SQ",
     "flysfo:date": "2025-01-04",
@@ -48,6 +50,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "88918905"
+    },
     "wof:country": "US",
     "wof:created": 1736096058,
     "wof:geomhash": "998e7b0d931c2ad5e41dcc1541aaab60",
@@ -88,7 +93,7 @@
       1159286259,
       1947304137
     ],
-    "wof:lastmodified": 1736096058,
+    "wof:lastmodified": 1736096670,
     "wof:name": "SQ33 (SFO-SIN)",
     "wof:parent_id": 1947304137,
     "wof:placetype": "custom",

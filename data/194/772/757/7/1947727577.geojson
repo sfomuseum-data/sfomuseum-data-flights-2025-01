@@ -2,10 +2,12 @@
   "id": 1947727577,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-04",
+    "date:cessation_upper": "2025-01-04",
     "date:inception_lower": "2025-01-04",
     "date:inception_upper": "2025-01-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-04",
+    "edtf:cessation": "2025-01-04T16:01:00Z",
+    "edtf:inception": "2025-01-04T14:13:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "DAL",
     "icao:base_airline": "AMX",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:base_flight_id": "20250104-D-AMX-4719",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N3751B",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +62,10 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "88939305",
+      "swim:gufi": "KO47462702"
+    },
     "wof:country": "US",
     "wof:created": 1736095555,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1947727577,
     "wof:involves": [
+      1159289871,
       102533269,
       102527513,
       1159284261,
       1763588251,
       1159283539
     ],
-    "wof:lastmodified": 1736095555,
+    "wof:lastmodified": 1736096652,
     "wof:name": "DL2809 (SFO-SEA)",
     "wof:parent_id": 1763588251,
     "wof:placetype": "custom",

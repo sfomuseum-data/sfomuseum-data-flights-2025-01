@@ -2,10 +2,12 @@
   "id": 1947729239,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-04",
+    "date:cessation_upper": "2025-01-04",
     "date:inception_lower": "2025-01-04",
     "date:inception_upper": "2025-01-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-04",
+    "edtf:cessation": "2025-01-04T19:22:32Z",
+    "edtf:inception": "2025-01-04T19:04:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-01-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 37.490859,
     "geom:longitude": -122.14984899999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618209,
     "lbl:longitude": -122.391665,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527529,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N2341U",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "88962339",
+      "swim:gufi": "KO57153700"
+    },
     "wof:country": "US",
     "wof:created": 1736096305,
     "wof:geomhash": "9e57705c73bd73668d4b0d529a043646",
@@ -86,9 +99,10 @@
       102527529,
       102527513,
       1159285413,
-      1947304151
+      1947304151,
+      1159289993
     ],
-    "wof:lastmodified": 1736096305,
+    "wof:lastmodified": 1736096659,
     "wof:name": "UA3772 (SFO-SJC)",
     "wof:parent_id": 1947304151,
     "wof:placetype": "custom",

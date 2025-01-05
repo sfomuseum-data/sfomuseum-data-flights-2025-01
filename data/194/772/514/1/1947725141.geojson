@@ -2,10 +2,12 @@
   "id": 1947725141,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-04",
+    "date:cessation_upper": "2025-01-04",
     "date:inception_lower": "2025-01-04",
     "date:inception_upper": "2025-01-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-04",
+    "edtf:cessation": "2025-01-04T15:44:06Z",
+    "edtf:inception": "2025-01-04T12:18:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -110.006986,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.616969,
     "lbl:longitude": -122.381363,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250104-A-ACA-3965",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N37504",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "88931982",
+      "swim:gufi": "KH33109700"
+    },
     "wof:country": "US",
     "wof:created": 1736094462,
     "wof:geomhash": "62f9f5a2734b9c5938b0b415e9e4a515",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1947725141,
     "wof:involves": [
-      102527513,
       102521851,
       1159285413,
       1947304599,
-      1159283597
+      1159283597,
+      1528104577,
+      102527513
     ],
-    "wof:lastmodified": 1736094462,
+    "wof:lastmodified": 1736096667,
     "wof:name": "UA472 (AUS-SFO)",
     "wof:parent_id": 1947304599,
     "wof:placetype": "custom",

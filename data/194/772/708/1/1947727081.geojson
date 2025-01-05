@@ -2,10 +2,12 @@
   "id": 1947727081,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-01-04",
-    "date:inception_upper": "2025-01-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-04",
+    "date:cessation_lower": "2025-01-05",
+    "date:cessation_upper": "2025-01-05",
+    "date:inception_lower": "2025-01-05",
+    "date:inception_upper": "2025-01-05",
+    "edtf:cessation": "2025-01-05T09:50:50Z",
+    "edtf:inception": "2025-01-05T05:11:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.2742345,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102530049,
     "sfomuseum:base_flight_id": "20250104-D-AAL-7562",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N722AL",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "88919572"
+    },
     "wof:country": "US",
     "wof:created": 1736095337,
     "wof:geomhash": "5f8ba203e186fe379420b736bcf5de4f",
@@ -88,13 +100,14 @@
     ],
     "wof:id": 1947727081,
     "wof:involves": [
+      1528104577,
       102530049,
       102527513,
       1159283813,
       1947304311,
       1159283849
     ],
-    "wof:lastmodified": 1736095337,
+    "wof:lastmodified": 1736096669,
     "wof:name": "AS384 (SFO-EWR)",
     "wof:parent_id": 1947304311,
     "wof:placetype": "custom",
