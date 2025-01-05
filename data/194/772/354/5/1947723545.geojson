@@ -1,0 +1,72 @@
+{
+  "id": 1947723545,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-01-04",
+    "date:inception_upper": "2025-01-04",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-01-04",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "DL",
+    "flysfo:date": "2025-01-04",
+    "flysfo:estimated_timestamp": 1736037240,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "DL8841",
+    "flysfo:gate": "",
+    "flysfo:journey": "YYC-SFO",
+    "flysfo:scheduled_timestamp": 1736037420,
+    "flysfo:timestamp": 1736037420,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-114.020920,51.119526",
+    "geom:latitude": 44.368758,
+    "geom:longitude": -118.1959315,
+    "iata:airline": "DL",
+    "icao:airline": "DAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159284261,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102554947,
+    "sfomuseum:flight_id": "20250104-A-DAL-8841",
+    "sfomuseum:flight_number": [
+      "DAL8841",
+      "DL8841"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1736093736,
+    "wof:geomhash": "4b8d850891e12dfac0a460ee51cd363b",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1947723545,
+        "flight_id": 1947723545
+      }
+    ],
+    "wof:id": 1947723545,
+    "wof:involves": [
+      102527513,
+      102554947,
+      1159284261,
+      -1
+    ],
+    "wof:lastmodified": 1736093736,
+    "wof:name": "DL8841 (YYC-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-01",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -114.02092,
+    51.119526
+  ],
+  "geometry": {"coordinates":[[-114.02092,51.119526],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
