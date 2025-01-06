@@ -1,0 +1,72 @@
+{
+  "id": 1947738005,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-01-05",
+    "date:inception_upper": "2025-01-05",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-01-05",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "UA",
+    "flysfo:date": "2025-01-05",
+    "flysfo:estimated_timestamp": 1736100000,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "UA6972",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-ONT",
+    "flysfo:scheduled_timestamp": 1736094600,
+    "flysfo:timestamp": 1736100000,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,34.059934,-117.587749,37.617990",
+    "geom:latitude": 35.838961999999995,
+    "geom:longitude": -119.97934599999999,
+    "iata:airline": "UA",
+    "icao:airline": "UAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285413,
+    "sfomuseum:arrival_id": 102533575,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20250105-D-UAL-6972",
+    "sfomuseum:flight_number": [
+      "UAL6972",
+      "UA6972"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1736182965,
+    "wof:geomhash": "ec8e91229a6790516c63cb7081c35777",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1947738005,
+        "flight_id": 1947738005
+      }
+    ],
+    "wof:id": 1947738005,
+    "wof:involves": [
+      102533575,
+      102527513,
+      1159285413,
+      -1
+    ],
+    "wof:lastmodified": 1736182965,
+    "wof:name": "UA6972 (SFO-ONT)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-01",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    34.059934,
+    -117.587749,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-117.587749,34.059934]],"type":"MultiPoint"}
+}
