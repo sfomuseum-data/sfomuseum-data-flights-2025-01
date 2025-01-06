@@ -2,10 +2,12 @@
   "id": 1947737251,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-05",
+    "date:cessation_upper": "2025-01-05",
     "date:inception_lower": "2025-01-05",
     "date:inception_upper": "2025-01-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-05",
+    "edtf:cessation": "2025-01-05T21:41:00Z",
+    "edtf:inception": "2025-01-05T21:05:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-01-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.5616045,
     "geom:longitude": -121.07155499999999,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102525535,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N485WN",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "89124122",
+      "swim:gufi": "KO73169100"
+    },
     "wof:country": "US",
     "wof:created": 1736182629,
     "wof:geomhash": "414447526a1ddeb77713c60c4ab5a7e4",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1947737251,
     "wof:involves": [
-      102525535,
-      102527513,
       1159285591,
-      -1
+      1159289869,
+      102525535,
+      102527513
     ],
-    "wof:lastmodified": 1736182629,
+    "wof:lastmodified": 1736183235,
     "wof:name": "WN8508 (SFO-RNO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

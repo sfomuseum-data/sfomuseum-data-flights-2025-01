@@ -2,10 +2,12 @@
   "id": 1947733773,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-05",
+    "date:cessation_upper": "2025-01-05",
     "date:inception_lower": "2025-01-05",
     "date:inception_upper": "2025-01-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-05",
+    "edtf:cessation": "2025-01-05T21:34:00Z",
+    "edtf:inception": "2025-01-05T16:06:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.2742345,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B789",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250105-A-ANZ-9129",
@@ -39,7 +43,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N38955",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "89025880",
+      "swim:gufi": "KN44451100"
+    },
     "wof:country": "US",
     "wof:created": 1736181052,
     "wof:geomhash": "5afbf99c4360a00cfc0890f48cccf304",
@@ -51,13 +64,13 @@
     ],
     "wof:id": 1947733773,
     "wof:involves": [
-      102527513,
       102530049,
       1159285413,
-      -1,
-      1159283697
+      1159283697,
+      1159293215,
+      102527513
     ],
-    "wof:lastmodified": 1736181052,
+    "wof:lastmodified": 1736183206,
     "wof:name": "UA792 (EWR-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

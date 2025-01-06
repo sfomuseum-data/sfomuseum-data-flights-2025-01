@@ -2,10 +2,12 @@
   "id": 1947733483,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-01-05",
-    "date:inception_upper": "2025-01-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-05",
+    "date:cessation_lower": "2025-01-06",
+    "date:cessation_upper": "2025-01-06",
+    "date:inception_lower": "2025-01-06",
+    "date:inception_upper": "2025-01-06",
+    "edtf:cessation": "2025-01-06T06:17:00Z",
+    "edtf:inception": "2025-01-06T02:39:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-01-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.797588,
     "geom:longitude": -108.8546935,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620929,
     "lbl:longitude": -122.390272,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102534097,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N228UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "89088120",
+      "swim:gufi": "KH69137100"
+    },
     "wof:country": "US",
     "wof:created": 1736180918,
     "wof:geomhash": "25dc9d98eae1cd54f40654c6c4fb6929",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1947733483,
     "wof:involves": [
+      1159289985,
       102527513,
       102534097,
       1159285413,
       1947304487
     ],
-    "wof:lastmodified": 1736180918,
+    "wof:lastmodified": 1736183204,
     "wof:name": "UA3018 (IAH-SFO)",
     "wof:parent_id": 1947304487,
     "wof:placetype": "custom",
