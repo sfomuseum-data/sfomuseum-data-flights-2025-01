@@ -2,10 +2,12 @@
   "id": 1947752313,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-07",
+    "date:cessation_upper": "2025-01-07",
     "date:inception_lower": "2025-01-06",
     "date:inception_upper": "2025-01-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-06",
+    "edtf:cessation": "2025-01-07T00:40:52Z",
+    "edtf:inception": "2025-01-06T22:09:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AC",
     "flysfo:date": "2025-01-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 44.368758,
     "geom:longitude": -118.1959315,
     "iata:airline": "AC",
+    "icao:aircraft": "B38M",
     "icao:airline": "ACA",
     "lbl:latitude": 37.618139,
     "lbl:longitude": -122.381258,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102554947,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "CGEJN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "89154207",
+      "swim:gufi": "KO58752200"
+    },
     "wof:country": "US",
     "wof:created": 1736267820,
     "wof:geomhash": "a7dd599440af55c5534b52449c3164ed",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1947752313,
     "wof:involves": [
+      1528104575,
       102554947,
       102527513,
       1159283597,
       1947304627
     ],
-    "wof:lastmodified": 1736267820,
+    "wof:lastmodified": 1736269435,
     "wof:name": "AC7071 (SFO-YYC)",
     "wof:parent_id": 1947304627,
     "wof:placetype": "custom",

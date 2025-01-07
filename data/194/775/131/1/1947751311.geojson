@@ -2,10 +2,12 @@
   "id": 1947751311,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-07",
+    "date:cessation_upper": "2025-01-07",
     "date:inception_lower": "2025-01-06",
     "date:inception_upper": "2025-01-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-06",
+    "edtf:cessation": "2025-01-07T00:26:47Z",
+    "edtf:inception": "2025-01-06T23:44:47Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-01-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.5616045,
     "geom:longitude": -121.07155499999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102525535,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N472UA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "89101154",
+      "swim:gufi": "KO59294200"
+    },
     "wof:country": "US",
     "wof:created": 1736267358,
     "wof:geomhash": "a4d4dc469296ca0f5ad383dc766835b1",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1947751311,
     "wof:involves": [
-      102527513,
       102525535,
       1159285413,
-      -1
+      1159292085,
+      102527513
     ],
-    "wof:lastmodified": 1736267358,
+    "wof:lastmodified": 1736269419,
     "wof:name": "UA8192 (RNO-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

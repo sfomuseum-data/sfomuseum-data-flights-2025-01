@@ -2,10 +2,12 @@
   "id": 1947750913,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-07",
+    "date:cessation_upper": "2025-01-07",
     "date:inception_lower": "2025-01-06",
     "date:inception_upper": "2025-01-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-06",
+    "edtf:cessation": "2025-01-07T07:24:55Z",
+    "edtf:inception": "2025-01-06T05:11:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -113.521581,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.620534,
     "lbl:longitude": -122.388506,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250106-A-ACA-3620",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N769UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "89081908",
+      "swim:gufi": "KD06702300"
+    },
     "wof:country": "US",
     "wof:created": 1736267180,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1947750913,
     "wof:involves": [
+      1947304459,
+      1159283597,
+      1159289985,
       102527513,
       102531189,
-      1159285413,
-      1947304459,
-      1159283597
+      1159285413
     ],
-    "wof:lastmodified": 1736267180,
+    "wof:lastmodified": 1736269413,
     "wof:name": "UA2190 (DEN-SFO)",
     "wof:parent_id": 1947304459,
     "wof:placetype": "custom",
