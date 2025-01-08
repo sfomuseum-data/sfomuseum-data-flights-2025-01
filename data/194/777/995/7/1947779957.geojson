@@ -2,10 +2,12 @@
   "id": 1947779957,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-08",
+    "date:cessation_upper": "2025-01-08",
     "date:inception_lower": "2025-01-07",
     "date:inception_upper": "2025-01-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-07",
+    "edtf:cessation": "2025-01-08T02:59:15Z",
+    "edtf:inception": "2025-01-07T23:30:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:date": "2025-01-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.139362,
     "geom:longitude": -113.8106995,
     "iata:airline": "AS",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102536481,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +56,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "89234749",
+      "swim:gufi": "KL05767400"
+    },
     "wof:country": "US",
     "wof:created": 1736352534,
     "wof:geomhash": "87e43b321087b5e7d68ac47fe0a6e824",
@@ -83,12 +95,13 @@
     ],
     "wof:id": 1947779957,
     "wof:involves": [
-      102527513,
       102536481,
       1159283813,
-      1947304311
+      1947304311,
+      1528104577,
+      102527513
     ],
-    "wof:lastmodified": 1736352534,
+    "wof:lastmodified": 1736354819,
     "wof:name": "AS9721 (PVR-SFO)",
     "wof:parent_id": 1947304311,
     "wof:placetype": "custom",
