@@ -2,10 +2,12 @@
   "id": 1947790639,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-08",
+    "date:cessation_upper": "2025-01-08",
     "date:inception_lower": "2025-01-08",
     "date:inception_upper": "2025-01-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-08",
+    "edtf:cessation": "2025-01-08T16:13:00Z",
+    "edtf:inception": "2025-01-08T15:40:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:date": "2025-01-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 37.193359,
     "geom:longitude": -121.0461075,
     "iata:airline": "AS",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102530717,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
+    "swim:tail_number": "N708AL",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +56,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "89326386",
+      "swim:gufi": "KO51553400"
+    },
     "wof:country": "US",
     "wof:created": 1736440093,
     "wof:geomhash": "7027f9178c7d77a5f6f9a377b7a1bb37",
@@ -83,12 +95,13 @@
     ],
     "wof:id": 1947790639,
     "wof:involves": [
+      1528104577,
       102530717,
       102527513,
       1159283813,
       1947304307
     ],
-    "wof:lastmodified": 1736440093,
+    "wof:lastmodified": 1736440893,
     "wof:name": "AS9718 (SFO-FAT)",
     "wof:parent_id": 1947304307,
     "wof:placetype": "custom",

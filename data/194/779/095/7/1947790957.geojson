@@ -2,10 +2,12 @@
   "id": 1947790957,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-09",
+    "date:cessation_upper": "2025-01-09",
     "date:inception_lower": "2025-01-08",
     "date:inception_upper": "2025-01-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-08",
+    "edtf:cessation": "2025-01-09T10:31:58Z",
+    "edtf:inception": "2025-01-08T20:07:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "CX",
     "flysfo:date": "2025-01-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.9627305,
     "geom:longitude": -4.221753499999998,
     "iata:airline": "CX",
+    "icao:aircraft": "A359",
     "icao:airline": "CPA",
     "lbl:latitude": 37.61227,
     "lbl:longitude": -122.390079,
+    "sfomuseum:aircraft_id": 1377564293,
     "sfomuseum:airline_id": 1159284127,
     "sfomuseum:arrival_id": 102541737,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "BLRJ",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "89274847"
+    },
     "wof:country": "US",
     "wof:created": 1736440197,
     "wof:geomhash": "b8fc8d95bb44b1c6b9f6cb201e4d2ca9",
@@ -86,9 +98,10 @@
       102541737,
       102527513,
       1159284127,
-      1947304101
+      1947304101,
+      1377564293
     ],
-    "wof:lastmodified": 1736440197,
+    "wof:lastmodified": 1736440895,
     "wof:name": "CX879 (SFO-HKG)",
     "wof:parent_id": 1947304101,
     "wof:placetype": "custom",

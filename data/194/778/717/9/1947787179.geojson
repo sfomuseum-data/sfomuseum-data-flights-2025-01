@@ -2,10 +2,12 @@
   "id": 1947787179,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-09",
+    "date:cessation_upper": "2025-01-09",
     "date:inception_lower": "2025-01-08",
     "date:inception_upper": "2025-01-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-08",
+    "edtf:cessation": "2025-01-09T04:28:49Z",
+    "edtf:inception": "2025-01-08T23:09:36Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:date": "2025-01-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.3291535,
     "geom:longitude": -104.6218995,
     "iata:airline": "AS",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102536223,
@@ -34,7 +38,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "89315734",
+      "swim:gufi": "KL79575401"
+    },
     "wof:country": "US",
     "wof:created": 1736438905,
     "wof:geomhash": "c1b858affbd20b2c728ba535a4ce178e",
@@ -46,12 +58,12 @@
     ],
     "wof:id": 1947787179,
     "wof:involves": [
+      1528104577,
       102527513,
       102536223,
-      1159283813,
-      -1
+      1159283813
     ],
-    "wof:lastmodified": 1736438905,
+    "wof:lastmodified": 1736440898,
     "wof:name": "AS9719 (CUN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
