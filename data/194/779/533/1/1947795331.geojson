@@ -2,10 +2,12 @@
   "id": 1947795331,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-10",
+    "date:cessation_upper": "2025-01-10",
     "date:inception_lower": "2025-01-09",
     "date:inception_upper": "2025-01-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-09",
+    "edtf:cessation": "2025-01-10T01:44:41Z",
+    "edtf:inception": "2025-01-09T23:56:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "F8",
     "flysfo:base_airline": "",
@@ -39,6 +41,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +59,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "89379040"
+    },
     "wof:country": "US",
     "wof:created": 1736525645,
     "wof:geomhash": "e68490b7b9257816408c117e0e15f8ec",
@@ -94,7 +103,7 @@
       1947304385,
       1930448553
     ],
-    "wof:lastmodified": 1736525645,
+    "wof:lastmodified": 1736527783,
     "wof:name": "F81846 (YVR-SFO)",
     "wof:parent_id": 1947304385,
     "wof:placetype": "custom",

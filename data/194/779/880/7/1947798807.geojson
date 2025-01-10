@@ -2,10 +2,12 @@
   "id": 1947798807,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-09",
+    "date:cessation_upper": "2025-01-09",
     "date:inception_lower": "2025-01-09",
     "date:inception_upper": "2025-01-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-09",
+    "edtf:cessation": "2025-01-09T21:07:15Z",
+    "edtf:inception": "2025-01-09T15:35:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -96.6928465,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A21N",
     "icao:airline": "DAL",
     "icao:base_airline": "ELY",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102530741,
     "sfomuseum:base_flight_id": "20250109-D-ELY-4228",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N572DT",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "89332192",
+      "swim:gufi": "KO52861500"
+    },
     "wof:country": "US",
     "wof:created": 1736526927,
     "wof:geomhash": "92fb504f17f3373e6b03bb6769f65d8a",
@@ -92,9 +105,10 @@
       102527513,
       1159284261,
       1947304669,
-      1159284327
+      1159284327,
+      1377564297
     ],
-    "wof:lastmodified": 1736526927,
+    "wof:lastmodified": 1736527775,
     "wof:name": "DL400 (SFO-BOS)",
     "wof:parent_id": 1947304669,
     "wof:placetype": "custom",

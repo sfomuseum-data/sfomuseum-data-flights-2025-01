@@ -2,10 +2,12 @@
   "id": 1947798615,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-09",
+    "date:cessation_upper": "2025-01-09",
     "date:inception_lower": "2025-01-09",
     "date:inception_upper": "2025-01-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-09",
+    "edtf:cessation": "2025-01-09T23:40:05Z",
+    "edtf:inception": "2025-01-09T10:12:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "CI",
     "flysfo:date": "2025-01-09",
@@ -21,9 +23,11 @@
     "geom:latitude": 31.348278,
     "geom:longitude": -0.5688954999999964,
     "iata:airline": "CI",
+    "icao:aircraft": "B77L",
     "icao:airline": "CAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289989,
     "sfomuseum:airline_id": 1159284153,
     "sfomuseum:arrival_id": 102551487,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "B18773",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "89396807"
+    },
     "wof:country": "US",
     "wof:created": 1736526858,
     "wof:geomhash": "ec4a8fe4d0e09d37ae50bf109072b003",
@@ -46,12 +58,12 @@
     ],
     "wof:id": 1947798615,
     "wof:involves": [
-      102551487,
       102527513,
       1159284153,
-      -1
+      1159289989,
+      102551487
     ],
-    "wof:lastmodified": 1736526858,
+    "wof:lastmodified": 1736527775,
     "wof:name": "CI5345 (SFO-TPE)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

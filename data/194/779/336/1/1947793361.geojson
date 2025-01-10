@@ -2,10 +2,12 @@
   "id": 1947793361,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-09",
+    "date:cessation_upper": "2025-01-09",
     "date:inception_lower": "2025-01-09",
     "date:inception_upper": "2025-01-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-09",
+    "edtf:cessation": "2025-01-09T20:05:32Z",
+    "edtf:inception": "2025-01-09T15:16:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:date": "2025-01-09",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.419367,
     "geom:longitude": -101.65686,
     "iata:airline": "AA",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528659,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N990AU",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "89331001",
+      "swim:gufi": "KT49089500"
+    },
     "wof:country": "US",
     "wof:created": 1736524897,
     "wof:geomhash": "b96563c9986e04a3607ac552f48e111b",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1947793361,
     "wof:involves": [
+      1159289411,
       102527513,
       102528659,
       1159283849,
       1947304291
     ],
-    "wof:lastmodified": 1736524897,
+    "wof:lastmodified": 1736527752,
     "wof:name": "AA2428 (CLT-SFO)",
     "wof:parent_id": 1947304291,
     "wof:placetype": "custom",
