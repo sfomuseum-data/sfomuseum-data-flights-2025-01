@@ -2,10 +2,12 @@
   "id": 1947806889,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-10",
+    "date:cessation_upper": "2025-01-10",
     "date:inception_lower": "2025-01-10",
     "date:inception_upper": "2025-01-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-10",
+    "edtf:cessation": "2025-01-10T16:44:46Z",
+    "edtf:inception": "2025-01-10T06:02:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "FJ",
     "flysfo:date": "2025-01-10",
@@ -35,6 +37,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "89393491"
+    },
     "wof:country": "US",
     "wof:created": 1736613419,
     "wof:geomhash": "ac04d12b9bb720d89a4c8027fbef35a5",
@@ -51,7 +56,7 @@
       1159283717,
       -1
     ],
-    "wof:lastmodified": 1736613419,
+    "wof:lastmodified": 1736614126,
     "wof:name": "FJ871 (SFO-NAN)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
