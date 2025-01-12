@@ -2,10 +2,12 @@
   "id": 1947811613,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-12",
+    "date:cessation_upper": "2025-01-12",
     "date:inception_lower": "2025-01-11",
     "date:inception_upper": "2025-01-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-11",
+    "edtf:cessation": "2025-01-12T05:53:00Z",
+    "edtf:inception": "2025-01-11T23:57:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -101.83923999999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "icao:base_airline": "AZU",
     "lbl:latitude": 37.618149,
     "lbl:longitude": -122.381669,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250111-A-AZU-7928",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N37527",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "89532860",
+      "swim:gufi": "KJ77254700"
+    },
     "wof:country": "US",
     "wof:created": 1736698701,
     "wof:geomhash": "5fe9a4073f558f5d433cae4f846ab71e",
@@ -92,9 +105,10 @@
       102533657,
       1159285413,
       1947304613,
-      1779770723
+      1779770723,
+      1528104577
     ],
-    "wof:lastmodified": 1736698701,
+    "wof:lastmodified": 1736700253,
     "wof:name": "UA2340 (MCO-SFO)",
     "wof:parent_id": 1947304613,
     "wof:placetype": "custom",
