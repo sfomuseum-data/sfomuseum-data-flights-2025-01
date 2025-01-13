@@ -2,10 +2,12 @@
   "id": 1947818459,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-13",
+    "date:cessation_upper": "2025-01-13",
     "date:inception_lower": "2025-01-12",
     "date:inception_upper": "2025-01-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-12",
+    "edtf:cessation": "2025-01-13T03:25:00Z",
+    "edtf:inception": "2025-01-12T23:19:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-01-12",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.702760999999995,
     "geom:longitude": -105.058423,
     "iata:airline": "WN",
+    "icao:aircraft": "B738",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531205,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N8631A",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "89596331",
+      "swim:gufi": "KG74901100"
+    },
     "wof:country": "US",
     "wof:created": 1736785120,
     "wof:geomhash": "bbd014edfd8455b7d9e062bec23e52e6",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1947818459,
     "wof:involves": [
-      102527513,
-      102531205,
       1159285591,
-      1947304303
+      1947304303,
+      1159289871,
+      102527513,
+      102531205
     ],
-    "wof:lastmodified": 1736785120,
+    "wof:lastmodified": 1736787054,
     "wof:name": "WN2562 (MDW-SFO)",
     "wof:parent_id": 1947304303,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1947822355,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-12",
+    "date:cessation_upper": "2025-01-12",
     "date:inception_lower": "2025-01-12",
     "date:inception_upper": "2025-01-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-12",
+    "edtf:cessation": "2025-01-12T17:45:00Z",
+    "edtf:inception": "2025-01-12T14:13:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-01-12",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.702760999999995,
     "geom:longitude": -105.058423,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102531205,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N7739A",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "89560529",
+      "swim:gufi": "KO39367100"
+    },
     "wof:country": "US",
     "wof:created": 1736786589,
     "wof:geomhash": "b0d868dab19a217943f06d97e1bf7ce6",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1947822355,
     "wof:involves": [
+      1159289869,
       102531205,
       102527513,
       1159285591,
       1947304267
     ],
-    "wof:lastmodified": 1736786589,
+    "wof:lastmodified": 1736787050,
     "wof:name": "WN4015 (SFO-MDW)",
     "wof:parent_id": 1947304267,
     "wof:placetype": "custom",

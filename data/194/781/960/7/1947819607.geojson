@@ -2,10 +2,12 @@
   "id": 1947819607,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-13",
+    "date:cessation_upper": "2025-01-13",
     "date:inception_lower": "2025-01-12",
     "date:inception_upper": "2025-01-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-12",
+    "edtf:cessation": "2025-01-13T04:31:01Z",
+    "edtf:inception": "2025-01-12T23:59:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "icao:base_airline": "FJI",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:base_flight_id": "20250112-D-FJI-5007",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N108NN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "89600469",
+      "swim:gufi": "KO80896100"
+    },
     "wof:country": "US",
     "wof:created": 1736785557,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1947819607,
     "wof:involves": [
+      1947304277,
+      1159283717,
+      1159289411,
       102534365,
       102527513,
-      1159283849,
-      1947304277,
-      1159283717
+      1159283849
     ],
-    "wof:lastmodified": 1736785557,
+    "wof:lastmodified": 1736787067,
     "wof:name": "AA217 (SFO-JFK)",
     "wof:parent_id": 1947304277,
     "wof:placetype": "custom",
