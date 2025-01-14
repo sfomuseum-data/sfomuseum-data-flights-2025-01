@@ -2,10 +2,12 @@
   "id": 1947830547,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-14",
+    "date:cessation_upper": "2025-01-14",
     "date:inception_lower": "2025-01-13",
     "date:inception_upper": "2025-01-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-13",
+    "edtf:cessation": "2025-01-14T07:57:53Z",
+    "edtf:inception": "2025-01-13T21:45:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -57.5518295,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102549057,
     "sfomuseum:base_flight_id": "20250113-D-ACA-4057",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N2639U",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "89666084",
+      "swim:gufi": "KO68398200"
+    },
     "wof:country": "US",
     "wof:created": 1736872317,
     "wof:geomhash": "a63fc4dac3cd4064d907a0b9ef33a7bc",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1947830547,
     "wof:involves": [
-      102549057,
-      102527513,
       1159285413,
       1947304147,
-      1159283597
+      1159283597,
+      1159289993,
+      102549057,
+      102527513
     ],
-    "wof:lastmodified": 1736872317,
+    "wof:lastmodified": 1736872453,
     "wof:name": "UA58 (SFO-FRA)",
     "wof:parent_id": 1947304147,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1947825021,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-13",
+    "date:cessation_upper": "2025-01-13",
     "date:inception_lower": "2025-01-13",
     "date:inception_upper": "2025-01-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-13",
+    "edtf:cessation": "2025-01-13T16:30:37Z",
+    "edtf:inception": "2025-01-13T06:25:08Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "MU",
     "flysfo:date": "2025-01-13",
@@ -34,6 +36,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +53,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "89614263"
+    },
     "wof:country": "US",
     "wof:created": 1736870899,
     "wof:geomhash": "0a16624c451961804ad27ef012213244",
@@ -88,7 +96,7 @@
       1159284157,
       1947304085
     ],
-    "wof:lastmodified": 1736870899,
+    "wof:lastmodified": 1736872471,
     "wof:name": "MU589 (PVG-SFO)",
     "wof:parent_id": 1947304085,
     "wof:placetype": "custom",
