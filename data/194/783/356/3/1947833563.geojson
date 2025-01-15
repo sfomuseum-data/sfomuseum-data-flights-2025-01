@@ -2,10 +2,12 @@
   "id": 1947833563,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-14",
+    "date:cessation_upper": "2025-01-14",
     "date:inception_lower": "2025-01-14",
     "date:inception_upper": "2025-01-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-14",
+    "edtf:cessation": "2025-01-14T21:55:00Z",
+    "edtf:inception": "2025-01-14T20:25:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-01-14",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102526751,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N914WN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "89736704",
+      "swim:gufi": "KA69173300"
+    },
     "wof:country": "US",
     "wof:created": 1736957834,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1947833563,
     "wof:involves": [
-      102527513,
       102526751,
       1159285591,
-      1947304263
+      1947304263,
+      1159289869,
+      102527513
     ],
-    "wof:lastmodified": 1736957834,
+    "wof:lastmodified": 1736959866,
     "wof:name": "WN3394 (PHX-SFO)",
     "wof:parent_id": 1947304263,
     "wof:placetype": "custom",
