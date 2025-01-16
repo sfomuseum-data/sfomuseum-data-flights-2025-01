@@ -2,10 +2,12 @@
   "id": 1947844515,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-15",
+    "date:cessation_upper": "2025-01-15",
     "date:inception_lower": "2025-01-15",
     "date:inception_upper": "2025-01-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-15",
+    "edtf:cessation": "2025-01-15T19:59:15Z",
+    "edtf:inception": "2025-01-15T07:26:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": 15.374977500000007,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "icao:base_airline": "AVA",
     "lbl:latitude": 37.61844,
     "lbl:longitude": -122.392214,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102557775,
     "sfomuseum:base_flight_id": "20250115-D-AVA-2017",
@@ -39,6 +43,7 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "swim:tail_number": "N2136U",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +58,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "89769333",
+      "swim:gufi": "KO11682400"
+    },
     "wof:country": "US",
     "wof:created": 1737045655,
     "wof:geomhash": "2816398c66be3da27e7024f224ecf0ab",
@@ -88,13 +97,14 @@
     ],
     "wof:id": 1947844515,
     "wof:involves": [
-      102557775,
-      102527513,
       1159285413,
       1947304153,
-      1159285749
+      1159285749,
+      1159289993,
+      102557775,
+      102527513
     ],
-    "wof:lastmodified": 1737045655,
+    "wof:lastmodified": 1737045811,
     "wof:name": "UA96 (SFO-BNE)",
     "wof:parent_id": 1947304153,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1947840807,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-15",
+    "date:cessation_upper": "2025-01-15",
     "date:inception_lower": "2025-01-15",
     "date:inception_upper": "2025-01-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-15",
+    "edtf:cessation": "2025-01-15T17:13:00Z",
+    "edtf:inception": "2025-01-15T16:19:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-01-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.0998015,
     "geom:longitude": -119.87272250000001,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61844,
     "lbl:longitude": -122.392214,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530801,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N2748U",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "89813177",
+      "swim:gufi": "KL48628400"
+    },
     "wof:country": "US",
     "wof:created": 1737044308,
     "wof:geomhash": "099d85224c4d6fa8685f2b490939bec5",
@@ -86,9 +99,10 @@
       102527513,
       102530801,
       1159285413,
-      1947304153
+      1947304153,
+      1159289993
     ],
-    "wof:lastmodified": 1737044308,
+    "wof:lastmodified": 1737045796,
     "wof:name": "UA3898 (VCV-SFO)",
     "wof:parent_id": 1947304153,
     "wof:placetype": "custom",
