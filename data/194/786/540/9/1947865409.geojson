@@ -1,0 +1,72 @@
+{
+  "id": 1947865409,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-01-18",
+    "date:inception_upper": "2025-01-18",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-01-18",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "F9",
+    "flysfo:date": "2025-01-18",
+    "flysfo:estimated_timestamp": 1737219300,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "F99443",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-PHX",
+    "flysfo:scheduled_timestamp": 1737216000,
+    "flysfo:timestamp": 1737219300,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,33.432684,-112.017392,37.617990",
+    "geom:latitude": 35.525337,
+    "geom:longitude": -117.19416749999999,
+    "iata:airline": "F9",
+    "icao:airline": "FFT",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159284401,
+    "sfomuseum:arrival_id": 102526751,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20250118-D-FFT-9443",
+    "sfomuseum:flight_number": [
+      "FFT9443",
+      "F99443"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1737304276,
+    "wof:geomhash": "2a19f056fd5d16c52f22f1bf5dc85c9c",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1947865409,
+        "flight_id": 1947865409
+      }
+    ],
+    "wof:id": 1947865409,
+    "wof:involves": [
+      102526751,
+      102527513,
+      1159284401,
+      -1
+    ],
+    "wof:lastmodified": 1737304276,
+    "wof:name": "F99443 (SFO-PHX)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-01",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    33.432684,
+    -112.017392,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-112.017392,33.432684]],"type":"MultiPoint"}
+}

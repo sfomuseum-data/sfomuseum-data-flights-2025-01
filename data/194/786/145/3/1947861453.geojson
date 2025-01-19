@@ -1,0 +1,78 @@
+{
+  "id": 1947861453,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-01-18",
+    "date:inception_upper": "2025-01-18",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-01-18",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "AS",
+    "flysfo:base_airline": "",
+    "flysfo:base_flight_number": "6382",
+    "flysfo:date": "2025-01-18",
+    "flysfo:estimated_timestamp": 1737241260,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "AS781",
+    "flysfo:gate": "",
+    "flysfo:journey": "PVR-SFO",
+    "flysfo:scheduled_timestamp": 1737242220,
+    "flysfo:timestamp": 1737242220,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,20.660734,-105.250456,37.617990",
+    "geom:latitude": 29.139362,
+    "geom:longitude": -113.8106995,
+    "iata:airline": "AS",
+    "iata:base_airline": "",
+    "icao:airline": "ASA",
+    "icao:base_airline": "HAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159283813,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:base_flight_id": "20250118-A-HAL-6382",
+    "sfomuseum:departure_id": 102536481,
+    "sfomuseum:flight_id": "20250118-A-ASA-781",
+    "sfomuseum:flight_number": [
+      "ASA781",
+      "AS781"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1737302902,
+    "wof:geomhash": "87e43b321087b5e7d68ac47fe0a6e824",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1947861453,
+        "flight_id": 1947861453
+      }
+    ],
+    "wof:id": 1947861453,
+    "wof:involves": [
+      102527513,
+      102536481,
+      1159283813,
+      -1,
+      1159284489
+    ],
+    "wof:lastmodified": 1737302902,
+    "wof:name": "AS781 (PVR-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-01",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    20.660734,
+    -105.250456,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-105.250456,20.660734],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
