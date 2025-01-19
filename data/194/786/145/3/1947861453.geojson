@@ -2,10 +2,12 @@
   "id": 1947861453,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-18",
+    "date:cessation_upper": "2025-01-18",
     "date:inception_lower": "2025-01-18",
     "date:inception_upper": "2025-01-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-18",
+    "edtf:cessation": "2025-01-18T23:01:00Z",
+    "edtf:inception": "2025-01-18T19:27:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -113.8106995,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "icao:base_airline": "HAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250118-A-HAL-6382",
@@ -39,7 +43,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N985AK",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "90080093",
+      "swim:gufi": "KL78108700"
+    },
     "wof:country": "US",
     "wof:created": 1737302902,
     "wof:geomhash": "87e43b321087b5e7d68ac47fe0a6e824",
@@ -51,13 +64,13 @@
     ],
     "wof:id": 1947861453,
     "wof:involves": [
+      1159284489,
+      1528104577,
       102527513,
       102536481,
-      1159283813,
-      -1,
-      1159284489
+      1159283813
     ],
-    "wof:lastmodified": 1737302902,
+    "wof:lastmodified": 1737304880,
     "wof:name": "AS781 (PVR-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

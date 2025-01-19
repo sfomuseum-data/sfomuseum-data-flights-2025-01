@@ -2,10 +2,12 @@
   "id": 1947861905,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-19",
+    "date:cessation_upper": "2025-01-19",
     "date:inception_lower": "2025-01-18",
     "date:inception_upper": "2025-01-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-18",
+    "edtf:cessation": "2025-01-19T05:02:00Z",
+    "edtf:inception": "2025-01-18T23:09:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B763",
     "icao:airline": "DAL",
     "icao:base_airline": "AMX",
     "lbl:latitude": 37.614676,
     "lbl:longitude": -122.38248,
+    "sfomuseum:aircraft_id": 1159289965,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250118-A-AMX-3844",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N178DN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "90099288"
+    },
     "wof:country": "US",
     "wof:created": 1737303063,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -88,13 +100,14 @@
     ],
     "wof:id": 1947861905,
     "wof:involves": [
-      102527513,
       102534365,
       1159284261,
       1947304681,
-      1159283539
+      1159283539,
+      1159289965,
+      102527513
     ],
-    "wof:lastmodified": 1737303063,
+    "wof:lastmodified": 1737304881,
     "wof:name": "DL670 (JFK-SFO)",
     "wof:parent_id": 1947304681,
     "wof:placetype": "custom",

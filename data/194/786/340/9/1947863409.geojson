@@ -2,10 +2,12 @@
   "id": 1947863409,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-18",
+    "date:cessation_upper": "2025-01-18",
     "date:inception_lower": "2025-01-18",
     "date:inception_upper": "2025-01-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-18",
+    "edtf:cessation": "2025-01-18T19:03:00Z",
+    "edtf:inception": "2025-01-18T08:07:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-01-18",
@@ -21,9 +23,11 @@
     "geom:latitude": 31.348278,
     "geom:longitude": -0.5688954999999964,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617458,
     "lbl:longitude": -122.391079,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102551487,
@@ -48,6 +52,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "90036303",
+      "swim:gufi": "KO63017700"
+    },
     "wof:country": "US",
     "wof:created": 1737303585,
     "wof:geomhash": "07bfd75b358269393c92373b424876ce",
@@ -83,12 +91,13 @@
     ],
     "wof:id": 1947863409,
     "wof:involves": [
+      1159289985,
       102527513,
       102551487,
       1159285413,
       1947304131
     ],
-    "wof:lastmodified": 1737303585,
+    "wof:lastmodified": 1737304887,
     "wof:name": "UA852 (TPE-SFO)",
     "wof:parent_id": 1947304131,
     "wof:placetype": "custom",
