@@ -2,10 +2,12 @@
   "id": 1947871859,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-19",
+    "date:cessation_upper": "2025-01-19",
     "date:inception_lower": "2025-01-19",
     "date:inception_upper": "2025-01-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-19",
+    "edtf:cessation": "2025-01-19T21:22:53Z",
+    "edtf:inception": "2025-01-19T20:17:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.1186115,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102534161,
     "sfomuseum:base_flight_id": "20250119-D-AAL-7452",
@@ -39,7 +43,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N546AS",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "90154644",
+      "swim:gufi": "KO68234100"
+    },
     "wof:country": "US",
     "wof:created": 1737390600,
     "wof:geomhash": "b700d5ae3794da4176af6b85f6cd6669",
@@ -51,13 +64,14 @@
     ],
     "wof:id": 1947871859,
     "wof:involves": [
+      1947304301,
+      1159283849,
+      1159289871,
       102534161,
       102527513,
-      1159283813,
-      1947304301,
-      1159283849
+      1159283813
     ],
-    "wof:lastmodified": 1737390600,
+    "wof:lastmodified": 1737391487,
     "wof:name": "AS642 (SFO-SNA)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

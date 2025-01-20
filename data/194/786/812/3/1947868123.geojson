@@ -2,10 +2,12 @@
   "id": 1947868123,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-20",
+    "date:cessation_upper": "2025-01-20",
     "date:inception_lower": "2025-01-19",
     "date:inception_upper": "2025-01-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-19",
+    "edtf:cessation": "2025-01-20T01:31:49Z",
+    "edtf:inception": "2025-01-19T15:44:12Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "YP",
     "flysfo:date": "2025-01-19",
@@ -21,9 +23,11 @@
     "geom:latitude": 37.535978,
     "geom:longitude": 2.1453445,
     "iata:airline": "YP",
+    "icao:aircraft": "B789",
     "icao:airline": "APZ",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1930448549,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102556451,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "HL8701",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "90189772"
+    },
     "wof:country": "US",
     "wof:created": 1737389283,
     "wof:geomhash": "83e2c60a8819c96e9fa3721059c5eac5",
@@ -83,12 +95,13 @@
     ],
     "wof:id": 1947868123,
     "wof:involves": [
-      102527513,
-      102556451,
       1930448549,
-      1947304093
+      1947304093,
+      1159293215,
+      102527513,
+      102556451
     ],
-    "wof:lastmodified": 1737389283,
+    "wof:lastmodified": 1737391478,
     "wof:name": "YP111 (ICN-SFO)",
     "wof:parent_id": 1947304093,
     "wof:placetype": "custom",

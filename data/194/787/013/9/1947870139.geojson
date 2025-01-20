@@ -2,10 +2,12 @@
   "id": 1947870139,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-19",
+    "date:cessation_upper": "2025-01-19",
     "date:inception_lower": "2025-01-19",
     "date:inception_upper": "2025-01-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-19",
+    "edtf:cessation": "2025-01-19T17:20:07Z",
+    "edtf:inception": "2025-01-19T13:15:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -106.3692875,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.619451,
     "lbl:longitude": -122.384404,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250119-A-ANZ-9700",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N73276",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "90127367",
+      "swim:gufi": "KK33328100"
+    },
     "wof:country": "US",
     "wof:created": 1737389998,
     "wof:geomhash": "5aed0915f9f8845326df52b0d348a4b7",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1947870139,
     "wof:involves": [
-      102527513,
-      1746879059,
       1159285413,
       1947304519,
-      1159283697
+      1159283697,
+      1159289871,
+      102527513,
+      1746879059
     ],
-    "wof:lastmodified": 1737389998,
+    "wof:lastmodified": 1737391470,
     "wof:name": "UA246 (STL-SFO)",
     "wof:parent_id": 1947304519,
     "wof:placetype": "custom",
