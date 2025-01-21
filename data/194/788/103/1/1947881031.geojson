@@ -2,10 +2,12 @@
   "id": 1947881031,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-01-20",
-    "date:inception_upper": "2025-01-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-20",
+    "date:cessation_lower": "2025-01-21",
+    "date:cessation_upper": "2025-01-21",
+    "date:inception_lower": "2025-01-21",
+    "date:inception_upper": "2025-01-21",
+    "edtf:cessation": "2025-01-21T12:21:03Z",
+    "edtf:inception": "2025-01-21T08:34:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.618678,
     "lbl:longitude": -122.385955,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533631,
     "sfomuseum:base_flight_id": "20250120-D-ACA-5432",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N66848",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "90184979",
+      "swim:gufi": "KO20240300"
+    },
     "wof:country": "US",
     "wof:created": 1737477827,
     "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1947881031,
     "wof:involves": [
+      1159283597,
+      1377564285,
       102533631,
       102527513,
       1159285413,
-      1947304481,
-      1159283597
+      1947304481
     ],
-    "wof:lastmodified": 1737477827,
+    "wof:lastmodified": 1737478184,
     "wof:name": "UA1494 (SFO-ORD)",
     "wof:parent_id": 1947304481,
     "wof:placetype": "custom",

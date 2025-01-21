@@ -2,10 +2,12 @@
   "id": 1947875123,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-20",
+    "date:cessation_upper": "2025-01-20",
     "date:inception_lower": "2025-01-20",
     "date:inception_upper": "2025-01-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-20",
+    "edtf:cessation": "2025-01-20T19:14:31Z",
+    "edtf:inception": "2025-01-20T07:56:06Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "NZ",
     "flysfo:base_airline": "",
@@ -39,6 +41,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +58,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "90184449"
+    },
     "wof:country": "US",
     "wof:created": 1737475588,
     "wof:geomhash": "07839d38a937070012f963bfe77eb5da",
@@ -94,7 +102,7 @@
       1947304155,
       1159283597
     ],
-    "wof:lastmodified": 1737475588,
+    "wof:lastmodified": 1737478182,
     "wof:name": "NZ8 (AKL-SFO)",
     "wof:parent_id": 1947304155,
     "wof:placetype": "custom",
