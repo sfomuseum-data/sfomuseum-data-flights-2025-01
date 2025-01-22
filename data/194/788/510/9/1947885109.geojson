@@ -2,10 +2,12 @@
   "id": 1947885109,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-22",
+    "date:cessation_upper": "2025-01-22",
     "date:inception_lower": "2025-01-21",
     "date:inception_upper": "2025-01-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-21",
+    "edtf:cessation": "2025-01-22T03:20:22Z",
+    "edtf:inception": "2025-01-21T21:33:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-01-21",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.0247425,
     "geom:longitude": -101.83923999999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617908,
     "lbl:longitude": -122.381084,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533657,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N33294",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "90349424",
+      "swim:gufi": "KJ64762300"
+    },
     "wof:country": "US",
     "wof:created": 1737562804,
     "wof:geomhash": "5fe9a4073f558f5d433cae4f846ab71e",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1947885109,
     "wof:involves": [
+      1159289871,
       102527513,
       102533657,
       1159285413,
       1947304603
     ],
-    "wof:lastmodified": 1737562804,
+    "wof:lastmodified": 1737564211,
     "wof:name": "UA3889 (MCO-SFO)",
     "wof:parent_id": 1947304603,
     "wof:placetype": "custom",
