@@ -2,10 +2,12 @@
   "id": 1947898833,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-24",
+    "date:cessation_upper": "2025-01-24",
     "date:inception_lower": "2025-01-23",
     "date:inception_upper": "2025-01-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-23",
+    "edtf:cessation": "2025-01-24T05:10:00Z",
+    "edtf:inception": "2025-01-23T23:44:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-01-23",
@@ -21,9 +23,11 @@
     "geom:latitude": 32.795441,
     "geom:longitude": -102.4509355,
     "iata:airline": "UA",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617421,
     "lbl:longitude": -122.380916,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533243,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N17336",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "90467613",
+      "swim:gufi": "KR75753500"
+    },
     "wof:country": "US",
     "wof:created": 1737736843,
     "wof:geomhash": "e5ae5d1ea61206da1f1e1104d6bc1bb7",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1947898833,
     "wof:involves": [
+      1947304617,
+      1528104575,
       102527513,
       102533243,
-      1159285413,
-      1947304617
+      1159285413
     ],
-    "wof:lastmodified": 1737736843,
+    "wof:lastmodified": 1737740203,
     "wof:name": "UA2277 (TPA-SFO)",
     "wof:parent_id": 1947304617,
     "wof:placetype": "custom",

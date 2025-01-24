@@ -2,10 +2,12 @@
   "id": 1947895739,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-01-23",
-    "date:inception_upper": "2025-01-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-23",
+    "date:cessation_lower": "2025-01-24",
+    "date:cessation_upper": "2025-01-24",
+    "date:inception_lower": "2025-01-24",
+    "date:inception_upper": "2025-01-24",
+    "edtf:cessation": "2025-01-24T07:00:00Z",
+    "edtf:inception": "2025-01-24T01:14:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -101.3334745,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A21N",
     "icao:airline": "AAL",
     "icao:base_airline": "FIN",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250123-A-FIN-4216",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N444UW",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "90392140",
+      "swim:gufi": "KR84970500"
+    },
     "wof:country": "US",
     "wof:created": 1737734561,
     "wof:geomhash": "38f88108bbae8bb050c3144d37bdc384",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1947895739,
     "wof:involves": [
-      102527513,
-      102531023,
       1159283849,
       1947304299,
-      1159284389
+      1159284389,
+      1377564297,
+      102527513,
+      102531023
     ],
-    "wof:lastmodified": 1737734561,
+    "wof:lastmodified": 1737740163,
     "wof:name": "AA2426 (MIA-SFO)",
     "wof:parent_id": 1947304299,
     "wof:placetype": "custom",
