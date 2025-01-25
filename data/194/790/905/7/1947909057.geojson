@@ -2,10 +2,12 @@
   "id": 1947909057,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-24",
+    "date:cessation_upper": "2025-01-24",
     "date:inception_lower": "2025-01-24",
     "date:inception_upper": "2025-01-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-24",
+    "edtf:cessation": "2025-01-24T21:47:00Z",
+    "edtf:inception": "2025-01-24T18:30:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2025-01-24",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.800514,
     "geom:longitude": -105.1326535,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102533631,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N663DN",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "90523857",
+      "swim:gufi": "KO61862600"
+    },
     "wof:country": "US",
     "wof:created": 1737824978,
     "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1947909057,
     "wof:involves": [
+      1159289939,
       102533631,
       102527513,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1737824978,
+    "wof:lastmodified": 1737826548,
     "wof:name": "DL8922 (SFO-ORD)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
