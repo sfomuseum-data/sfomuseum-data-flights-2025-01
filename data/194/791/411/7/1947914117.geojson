@@ -2,10 +2,12 @@
   "id": 1947914117,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-25",
+    "date:cessation_upper": "2025-01-25",
     "date:inception_lower": "2025-01-25",
     "date:inception_upper": "2025-01-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-25",
+    "edtf:cessation": "2025-01-25T17:27:00Z",
+    "edtf:inception": "2025-01-25T12:44:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -104.324809,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.616987,
     "lbl:longitude": -122.382479,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250125-A-ANZ-2728",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N17335",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "90583039",
+      "swim:gufi": "KI36125700"
+    },
     "wof:country": "US",
     "wof:created": 1737909395,
     "wof:geomhash": "c95405ad82a47404b222d64c163ad7d9",
@@ -92,9 +105,10 @@
       102534155,
       1159285413,
       1947304625,
-      1159283697
+      1159283697,
+      1528104575
     ],
-    "wof:lastmodified": 1737909395,
+    "wof:lastmodified": 1737912145,
     "wof:name": "UA500 (IND-SFO)",
     "wof:parent_id": 1947304625,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1947917355,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-26",
+    "date:cessation_upper": "2025-01-26",
     "date:inception_lower": "2025-01-25",
     "date:inception_upper": "2025-01-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-25",
+    "edtf:cessation": "2025-01-26T01:06:00Z",
+    "edtf:inception": "2025-01-25T19:23:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-01-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 24.105522999999998,
     "geom:longitude": -103.9582495,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617615,
     "lbl:longitude": -122.390247,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102537565,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N37553",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "90616979",
+      "swim:gufi": "KO56829700"
+    },
     "wof:country": "US",
     "wof:created": 1737911657,
     "wof:geomhash": "616ffa6e449396b97f6247dc82a6219c",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1947917355,
     "wof:involves": [
-      102537565,
       102527513,
       1159285413,
-      1947304141
+      1947304141,
+      1528104577,
+      102537565
     ],
-    "wof:lastmodified": 1737911657,
+    "wof:lastmodified": 1737912156,
     "wof:name": "UA2139 (SFO-LIR)",
     "wof:parent_id": 1947304141,
     "wof:placetype": "custom",
