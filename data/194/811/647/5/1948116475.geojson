@@ -1,0 +1,72 @@
+{
+  "id": 1948116475,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-01-30",
+    "date:inception_upper": "2025-01-30",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-01-30",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "WN",
+    "flysfo:date": "2025-01-30",
+    "flysfo:estimated_timestamp": -1,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "WN8547",
+    "flysfo:gate": "",
+    "flysfo:journey": "BFI-SFO",
+    "flysfo:scheduled_timestamp": 1738267200,
+    "flysfo:timestamp": 1738267200,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-122.301589,47.536582",
+    "geom:latitude": 42.577286,
+    "geom:longitude": -122.336266,
+    "iata:airline": "WN",
+    "icao:airline": "SWA",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285591,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102527671,
+    "sfomuseum:flight_id": "20250130-A-SWA-8547",
+    "sfomuseum:flight_number": [
+      "SWA8547",
+      "WN8547"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1740519340,
+    "wof:geomhash": "968bb026a0fa1cef9842447a45b980d7",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1948116475,
+        "flight_id": 1948116475
+      }
+    ],
+    "wof:id": 1948116475,
+    "wof:involves": [
+      102527513,
+      102527671,
+      1159285591,
+      -1
+    ],
+    "wof:lastmodified": 1740519340,
+    "wof:name": "WN8547 (BFI-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-01",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -122.301589,
+    47.536582
+  ],
+  "geometry": {"coordinates":[[-122.301589,47.536582],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
