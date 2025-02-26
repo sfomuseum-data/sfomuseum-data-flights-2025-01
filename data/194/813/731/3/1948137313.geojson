@@ -2,10 +2,12 @@
   "id": 1948137313,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-27",
+    "date:cessation_upper": "2025-01-27",
     "date:inception_lower": "2025-01-27",
     "date:inception_upper": "2025-01-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-27",
+    "edtf:cessation": "2025-01-27T23:53:00Z",
+    "edtf:inception": "2025-01-27T23:42:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "SY",
     "flysfo:date": "2025-01-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 37.490859,
     "geom:longitude": -122.14984899999999,
     "iata:airline": "SY",
+    "icao:aircraft": "B738",
     "icao:airline": "SCX",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285227,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527529,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
+    "swim:tail_number": "N831SY",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +56,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "90869109"
+    },
     "wof:country": "US",
     "wof:created": 1740527605,
     "wof:geomhash": "5aa704d308ccde2b747329ebb6ffcf42",
@@ -86,9 +97,10 @@
       102527513,
       102527529,
       1159285227,
-      1947304385
+      1947304385,
+      1159289871
     ],
-    "wof:lastmodified": 1740527605,
+    "wof:lastmodified": 1740529185,
     "wof:name": "SY8499 (SJC-SFO)",
     "wof:parent_id": 1947304385,
     "wof:placetype": "custom",

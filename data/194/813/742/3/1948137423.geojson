@@ -2,10 +2,12 @@
   "id": 1948137423,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-01-27",
-    "date:inception_upper": "2025-01-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-27",
+    "date:cessation_lower": "2025-01-28",
+    "date:cessation_upper": "2025-01-28",
+    "date:inception_lower": "2025-01-28",
+    "date:inception_upper": "2025-01-28",
+    "edtf:cessation": "2025-01-28T04:02:00Z",
+    "edtf:inception": "2025-01-28T03:09:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-01-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533795,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
+    "swim:tail_number": "N8836Q",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +56,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "90731744",
+      "swim:gufi": "KL05430300"
+    },
     "wof:country": "US",
     "wof:created": 1740527639,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -83,12 +95,13 @@
     ],
     "wof:id": 1948137423,
     "wof:involves": [
+      1528104575,
       102527513,
       102533795,
       1159285591,
       1947304303
     ],
-    "wof:lastmodified": 1740527639,
+    "wof:lastmodified": 1740529186,
     "wof:name": "WN4642 (LAX-SFO)",
     "wof:parent_id": 1947304303,
     "wof:placetype": "custom",
