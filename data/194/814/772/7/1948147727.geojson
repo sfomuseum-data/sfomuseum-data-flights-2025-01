@@ -2,10 +2,12 @@
   "id": 1948147727,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-26",
+    "date:cessation_upper": "2025-01-26",
     "date:inception_lower": "2025-01-26",
     "date:inception_upper": "2025-01-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-01-26",
+    "edtf:cessation": "2025-01-26T22:34:10Z",
+    "edtf:inception": "2025-01-26T18:31:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2025-01-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.419367,
     "geom:longitude": -101.65686,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102528659,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N664DN",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "90691318",
+      "swim:gufi": "KO61860100"
+    },
     "wof:country": "US",
     "wof:created": 1740532555,
     "wof:geomhash": "6d7202e034534315a50103622977ef57",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1948147727,
     "wof:involves": [
+      1159289939,
       102528659,
       102527513,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1740532555,
+    "wof:lastmodified": 1740533258,
     "wof:name": "DL8929 (SFO-CLT)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
